@@ -1,0 +1,238 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+*
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.maintext{
+  position: relative;
+  top: -300px;
+}
+html {
+  box-sizing: border-box;
+
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+.subtext{
+  position: relative;
+  top: 250px;
+  left: 400px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem; /* 18px */
+  font-weight: 400;
+  line-height: 1.4;
+  color: white;
+}
+
+
+
+h1,
+h2 {
+  margin-top: 20000;
+  font-family: 'Sora', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+h1 {
+  position: relative;
+  top: 50px;
+  font-size: 4.5rem;
+  
+}
+.second-header{
+  left: 300px;
+}
+
+h2 {
+ 
+  font-size: 4.2rem;
+  margin-top: 300;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-white);
+}
+
+img {
+  display: block;
+  width: 90%;
+  height: 90%
+}
+
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: black;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+
+
+.nav-list a {
+  display: block;
+  font-size: 2.2rem;
+  padding: 1.5rem;
+  margin-left:150px;
+  margin-right:150px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list a:hover {
+  background: var(--main-blue);
+}
+
+
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 110vh;
+  background-image:url(https://cdn.pixabay.com/photo/2019/08/06/20/44/landscape-4389208_960_720.jpg);
+  background-size: cover;
+}
+
+.welcome-section > p {
+  font-size: 3rem;
+  font-weight: 300;
+  color:black;
+}
+.paragraph{
+  color: black;
+ 
+
+    border: 4px solid #0066FF;  
+    
+    background-color:pink;  
+    
+    padding:7px;  
+    
+    margin-top:0px;  
+    
+    margin-bottom:10px;  
+    
+    margin-left:20px;  
+    
+    margin-right:20px;  
+    
+    }
+.paragraphs{
+  color: black;
+ 
+max-width: 90%;
+  border: 4px solid #0066FF;  
+  
+  background-color:pink;  
+  
+  padding:7px;  
+  
+  margin-top:0px;  
+  
+  margin-bottom:10px;  
+  
+  margin-left:0px;  
+  
+  margin-right:20px;  
+  
+
+}
+
+
+.projects-section {
+  text-align: center;
+  padding: 5rem 2rem;
+  background-image:url(https://cdn.pixabay.com/photo/2019/08/06/20/44/landscape-4389208_960_720.jpg);
+  background-size: cover;
+}
+.answer-section {
+  text-align: center;
+  width: 100%;
+  height: 110vh;
+  padding: 5rem 2rem;
+  background: grey;
+}
+
+.answer-section-header {
+  margin-top: 200;
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  
+}
+
+@media (max-width: 28.75em) {
+  .projects-section-header {
+    font-size: 4rem;
+  }
+}
+
+
+.projects-grid {
+  display: grid;
+ 
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+.project-sectionz-header{
+  margin-top: 500px;
+  font-size: 4.2rem;
+
+  
+ 
+}
+
+.code {
+  color: blue;
+  transition: color 0.3s ease-out;
+}
+.container{
+  background-image:url(https://cdn.pixabay.com/photo/2019/08/06/20/44/landscape-4389208_960_720.jpg);
+  background-size: cover;
+
+}
